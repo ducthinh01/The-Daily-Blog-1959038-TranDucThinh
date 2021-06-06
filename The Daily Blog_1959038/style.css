@@ -1,0 +1,189 @@
+.front {
+  background: url(images/uni.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 2px black;
+}
+
+footer {
+      background: url(https://img.freepik.com/free-vector/black-polygonal-seamless-pattern-with-triangles-dark-repeating-geometric-texture-with-extruded-surface-effect-illustration-background-wallpaper-interior-textile-wrapping-paper-print_278395-91.jpg) !important;
+      background-size: contain;
+}
+.title-post {
+    font-size: 20px;
+}
+.img-thumbnail-home {
+    width: 100%;
+    height: 200px;
+}
+
+/* sign in FORM */
+#logreg-forms{
+    width:412px;
+    margin:10vh auto;
+    background-color:#f3f3f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#logreg-forms .form-control:focus { z-index: 2; }
+#logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login{
+    width:390px;
+    margin:0 auto;
+    margin-bottom: 14px;
+}
+#logreg-forms .social-btn{
+    font-weight: 100;
+    color:white;
+    width:190px;
+    font-size: 0.9rem;
+}
+
+#logreg-forms a{
+    display: block;
+    padding-top:10px;
+    color:lightseagreen;
+}
+
+#logreg-form .lines{
+    width:200px;
+    border:1px solid red;
+}
+
+
+#logreg-forms button[type="submit"]{ margin-top:10px; }
+
+#logreg-forms .facebook-btn{  background-color:#3C589C; }
+
+#logreg-forms .google-btn{ background-color: #DF4B3B; }
+
+#logreg-forms .form-reset, #logreg-forms .form-signup{ display: none; }
+
+#logreg-forms .form-signup .social-btn{ width:210px; }
+
+#logreg-forms .form-signup input { margin-bottom: 2px;}
+
+.form-signup .social-login{
+    width:210px !important;
+    margin: 0 auto;
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+    #logreg-forms{
+        width:300px;
+    }
+
+    #logreg-forms  .social-login{
+        width:200px;
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    #logreg-forms  .social-btn{
+        font-size: 1.3rem;
+        font-weight: 100;
+        color:white;
+        width:200px;
+        height: 56px;
+
+    }
+    #logreg-forms .social-btn:nth-child(1){
+        margin-bottom: 5px;
+    }
+    #logreg-forms .social-btn span{
+        display: none;
+    }
+    #logreg-forms  .facebook-btn:after{
+        content:'Facebook';
+    }
+
+    #logreg-forms  .google-btn:after{
+        content:'Google+';
+    }
+
+}
+.parent {
+    margin: auto;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.parent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.parent .main div {
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+.parent .main div:nth-child(2) {
+    margin: 10px 0;
+}
+h2 {
+    margin-left: 20px;
+}
+ul {
+    margin-left: -17px;
+    list-style-type: none;
+}
+ul li {
+    margin: 30px 0;
+    color: #6E6B66;
+    position: relative;
+}
+.list h2 {
+    margin-top: 10px;
+}
+
+.gallery > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.gallery > div img:first-child,
+.gallery > div img:nth-child(4) {
+    margin-left: 7%;
+}
+.gallery h2::after {
+    top: 35px;
+    left: 120px;
+}
+.archives h2::after {
+    top: 35px;
+    left: 190px;
+}
+.fa-folder {
+    margin-right: 10px;
+}
+.img-thumbnail-detail {
+    width: 200px;
+    height: 100px;
+}
